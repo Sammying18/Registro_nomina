@@ -1,0 +1,31 @@
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+    color:#ffafcc;
+}
+
+.Formulario{
+    width: 500px;
+    height: auto ;
+    margin: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin-top: 0px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    
+}
+
+
+body{
+    background: url(imagenes/jee.png);
+}
+
+.boton{
+    color:black;
+    background-color:#ffafcc;
+    width: 100%;
+}

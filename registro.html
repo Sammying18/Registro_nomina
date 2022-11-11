@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilos.ccs/estilos.css">
+</head>
+<body>
+    <form class="Formulario">
+    <div class="contenedor">
+    <h1>REGISTRO</h1>
+    <hr/>
+    <from action="">
+        <legend></legend>
+        <h3 style="color:blue">INGRESA TUS DATOS</h3>
+        <label for="Ingrese_Nombre">Nombres</label></br>
+        <input type="text"name="IngreseNombre" id="IngreseNombre" size ="40" autofocus required
+        pattern="[A-Za-z] {2-40}" placeholder="Ingrese su nombre"></br></br>
+        <label for="Ingrese_Apellido">Apellidos</label></br>
+        <input type="text"name="Ingrese_Apellido" id="Ingrese_Apellido" size="40" required
+        pattern="[A-Za-z] {2-40}" placeholder="Ingrese Apellido"></br></br>
+        <label for="Ingrese su Documento">Tipo De Documento</label></br>
+        <select name="Ingrese_su_Documento" id="Ingrese su Documento"></br>
+            <option></option>
+            <option value="Cedula de Ciudadania">Cedula de Ciudadania</option>
+            <option value="Tarjeta de indentida">Tarjeta de indentida</option>
+            <option value="Cedula de Extranjeria">Cedula de Extranjeria</option>
+        </select>
+        <br><br>
+        <label for="Documento">Numero de Documento</label><br>
+        <input type="text"name="Documento" id="Documento" size="40"  required
+        pattern="[0-9]{2-40}" placeholder="Ingrese Numero"></br></br>
+        <label for="DateTime">Fecha de Nacimiento</label><br>
+        <input type="date"name="DateTime" id="DateTime" max="2010-12-31" min="1990-12-31"></br></br>
+        <label for="Genero">Seleccione genero</label><br>
+        <select name= "Genero"id="Genero"></br>
+        <option></option>
+        <option value="Femenino">FEMENINO</option>
+        <option value="Masculino">MASCULINO</option><br><br>
+        </select>
+        <br><br>
+        <label for="Telefono">Telefono</label><br>
+        <input type="text"name="Telefono" id="Telefono" size="40" required
+        pattern="[0-10]{0-10}" placeholder="Ingrese telefono"></br></br>
+        <label for="Correoelectronico">Correo electronico</label><br>
+        <input type="email" name=" Correoelectronico" id="Correoelectronico" size ="40" required
+        pattern="[0-9]+@+[*-.]{2-40}" placeholder="Ingrese Correo"></br></br>
+        <label for="Dirrección">Dirrección</label><br>
+        <input type="Direección" name="Dirrección" id="Dirrección" size="40" required
+        pattern="[A-Z-a-z-0-9]+" placeholder="Dirrección"></br></br>
+        <input type="submit"value="REGISTRAR"class="boton">
+    </from>
+
+    <br><br>
+    <a href="index.html">INICIO</a>
+    </div>
+
+    </form>
+    
+</body>
+</html>
